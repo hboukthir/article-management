@@ -1,0 +1,56 @@
+/* Style global pour l'application */
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+/* Styles pour la transition */
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */
+{
+    opacity: 0;
+}
+
+/* Style pour le menu de navigation */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #42b983;
+}
+
+nav a.router-link-exact-active {
+    font-weight: bold;
+    color: #35495e;
+}
+
+th,td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th{
+    background-color: #eee;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: #333;
+}
+input, textarea, button, select {
+    margin-top: 10px;
+    display: block;
+}
